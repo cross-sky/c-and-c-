@@ -7,7 +7,7 @@ void main( void )
 
 	while( scanf( "%f", &num) == 1)
 	{
-		new_guess = 1; //important 要不然此值就是上一次计算后的值，没初始化
+		new_guess = 1; //important 要不然此值就是上一次计算后的值，没初始化-
 		if( num <= 0 )
 			printf( " %g is not a negative number, cannot compute\n", num);
 
